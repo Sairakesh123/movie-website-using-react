@@ -1,16 +1,104 @@
-# React + Vite
+# 🎬 Movie Bluff
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie Bluff is a responsive movie browsing web application that allows users to explore popular movies with ratings, search functionality, sorting options, and a smooth Dark Mode experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search movies by name
+- 📅 Sort movies by year
+- ⭐ View IMDb-style ratings
+- 🌙 Dark Mode toggle
+- 📱 Fully responsive UI
+- ➕ Load more movies using "Show More" button
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔆 Light Mode
+![Light Mode](screenshots/light-mode-1.png)
+![Light Mode](screenshots/light-mode-2.png)
+
+### 🌙 Dark Mode
+![Dark Mode](screenshots/dark-mode.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Responsive Design (Flexbox / Grid)
+
+---
+
+## 📂 Project Structure
+
+movie-website/
+│
+├── node_modules/          # Installed npm packages (auto-generated)
+│
+├── public/                # Static files (favicon, etc.)
+│
+├── src/
+│   ├── assets/            # Images, icons, static assets
+│   │
+│   ├── components/        # Reusable UI components
+│   │   ├── styles/        # Component-specific CSS files
+│   │   │   ├── Header.css
+│   │   │   ├── MovieCard.css
+│   │   │   └── MovieModal.css
+│   │   │
+│   │   ├── Header.jsx     # App header (search, sort, dark mode)
+│   │   ├── MovieCard.jsx  # Individual movie card UI
+│   │   └── MovieModal.jsx # Movie details popup/modal
+│   │
+│   ├── data/
+│   │   └── mockMovies.js  # Mock movie data (title, rating, year, poster)
+│   │
+│   ├── App.css            # Global app styles
+│   ├── App.jsx            # Root component
+│   ├── index.css          # Base styles
+│   └── main.jsx           # Application entry point
+│
+├── .gitignore             # Files ignored by Git
+├── eslint.config.js       # ESLint configuration
+├── index.html             # HTML entry file
+├── package.json           # Project metadata & dependencies
+├── package-lock.json      # Dependency lock file
+├── vite.config.js         # Vite configuration
+└── README.md              # Project documentation
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/movie-bluff.git
+2.Open the project folder:
+
+cd movie-bluff
+
+
+3.Open index.html in your browser
+(or use Live Server in VS Code)
+🌟 Future Enhancements
+
+🎥 Movie details page
+
+🧠 Filter by genre
+
+🌐 API integration (TMDB / OMDb)
+
+❤️ Favorites list
+
+👨‍💻 Author
+
+Rakesh
+Frontend Developer | Java & Web Enthusiast
+
+If you like this project, don’t forget to ⭐ the repository!
